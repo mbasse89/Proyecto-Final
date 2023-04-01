@@ -1,0 +1,5 @@
+node_modules/
+webmail/
+*.log
+*.vsc
+*.ai
