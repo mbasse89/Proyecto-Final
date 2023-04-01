@@ -1,0 +1,771 @@
+/* ************************************************************INDEX */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600&family=Special+Elite&display=swap');
+
+
+
+*{
+    font-family: 'Montserrat';
+}
+*{
+    text-decoration: none;
+}
+
+
+
+.bg-green{
+    background-color: #458768;
+    
+}
+
+
+.msje{
+    
+    position:sticky;
+    text-align: right;
+    background-color: green;
+    color: aliceblue;
+    height: 25px;
+    
+}
+
+
+/* input buscar */
+ .buscar{
+    display: flex;
+    justify-content: flex-end;
+    
+   
+}
+
+ 
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+}
+
+div p{
+    margin: 5px;
+    font-size: larger;
+     
+}
+/* **************   header******************** */
+
+/*  ACOMODA LA BOTONERA */
+nav{
+    background-color: #458768;
+   /*  display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    text-decoration: none;
+    padding: 10px;  */
+    
+}
+
+
+ 
+nav ul li {
+    
+    /* display: inline-block;  
+    font-weight: bold; */
+ 
+} 
+
+ 
+/* propiedades de la botonera */
+nav ul li  :hover{
+    
+    
+
+    color: white;
+    border-radius: 50px;
+    list-style: none;
+    text-decoration: none;
+    overflow: hidden;
+    padding: 8px;
+    
+} */
+
+
+
+header .logo{
+    float: left;
+
+}
+
+
+
+/* Propiedades del logo */
+.logo{
+    
+    width: 130px;
+    height: 130px;
+    /* display: flex;
+    justify-content: center;  */
+    
+}
+
+/* filtros de la imagen */
+.imgheader{
+    filter: contrast(70%);
+    filter: brightness(70%);
+    width: 100%;
+    
+}
+
+/* propiedades del texto sobre la imagen */
+.section{
+   
+    text-align: center;
+    align-items: center;
+
+    font-size: 50px;
+    width: 100%;
+     
+}
+
+.fontTextheader{
+    color: rgba(255, 255, 255, 0.834);
+    font-family: 'Special elite', Helvetica, sans-serif;
+}
+
+/* ******************FIN HEADER***************** */
+
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-just{
+    text-align: justify;
+}
+
+
+
+
+/* ***************************MAIN**************************** */
+
+.grid{
+	width:99%;
+	display: grid;
+}
+
+.mainImg{
+    border-radius: 200px;
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    align-items: center;
+    
+}
+/* PROPIEDADES DEL MAIN*/
+.main{
+    margin-bottom: 10%;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: none;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    top: 18%;
+    border-radius: 15px;
+     
+}
+
+
+main img{
+    width: 100%;
+    height: 80%;   
+    
+    padding-left: 20px;
+    
+    
+}
+
+
+
+.infomain{
+    width: 50%;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+
+.imgProducto {
+    width: 30rem;
+    height: 30rem;
+}
+
+
+
+/* ***************************ENDS MAIN**************************** */
+
+
+
+
+
+
+
+
+
+/* ***************************FOOTER**************************** */
+
+
+.logoFooter{
+
+    width: 250px;
+    height: 250px;
+} 
+
+.containerFooter{
+
+  
+    display:  flex;
+    justify-content: space-around ;
+    
+    align-items: center;
+    
+    height: 25rem;
+    gap: 5px;
+    overflow: hidden;
+
+    
+} 
+
+/* ******propiedades del banner **************/
+.imgfooter{
+    width: 100%;
+    height: 140px    ;
+    
+    
+}
+
+.textobanner{
+    display: flex;
+    justify-content: end;
+
+    font-size: 50px; 
+    color: rgba(255, 255, 255, 0.834);
+    font-family: 'Special elite', Helvetica, sans-serif;
+    overflow:auto;
+}
+/*    ******termina prop del banner */
+
+/* contenedro SUSCRIPCION */
+.suscribe{
+    display: flex;
+    flex-direction: column;
+    background-color: #11989c;
+    padding: 30px;
+    border-radius: 2px;
+    gap: 30px;
+    
+}
+
+
+/* BOTON SUSCRIPCION */
+.btnSuscribir {
+    width: 100%;
+    background-color: #9fced0;
+    color: #11989c;
+    width: 100%;
+    font-size: larger;
+    padding: 5px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+
+
+
+
+
+
+/* LINKS FOOTER */
+.textfooter {
+    color: white;
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 10px;
+    
+    
+}
+
+
+
+.colorWhite{
+    color: white;
+}
+
+/* ICONS IG Y FB */
+.bgicon{
+    background-color: slategrey;
+    text-align: center;
+    justify-content: space-around;
+   
+}
+
+/* *************************** ENDS FOOTER**************************** */
+
+/* *******************************************************FIN INDEX */
+
+
+
+/* **************************************************QUIENES SOMOS */
+iframe {
+    border: 2px solid black;
+        width: 40%;
+        height: 60%;
+        margin-left: 30%;
+    }
+    
+
+
+
+
+
+.mainImgQs{
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 50px;
+
+}
+
+
+.textomainqs{
+    color: rgb(58, 23, 23);
+    filter: none;
+    justify-content: flex-end;
+    display: flex;
+    text-align: center;
+    text-align: justify;
+    filter: brightness(250%);
+    font-size: 20px;
+    padding: 30px;
+}
+ main span{
+    background-color: aquamarine;
+    color: aliceblue;
+    font-size: 25px;
+ }
+
+
+
+
+ 
+
+ /* ********************************CONTACTO */
+/* fondo de la html */
+ .fondoMainContacto{
+    background-image: url(../img/quienessomos/fondo-contacto.png);
+    height: auto;
+    width: 100%; 
+}
+/* propiedades grid del Main */
+.gridMain{
+    display: grid;
+     grid-template-columns: 39rem 10rem; 
+    
+    grid-template-rows: 1fr;
+    overflow: hidden;
+
+}
+
+ 
+    
+
+/* propiedades del texto  */
+.textoContacto{
+    display: flex;
+     
+    align-items: center;
+    padding-left: 150px; 
+    font-size: 20px;
+ }
+
+/* propiedades del formulario */
+form {
+    background-color:white;
+    margin: 0 auto;
+    width: 380px;
+    padding: 26px;
+    border-radius: 3px;
+    color: #999;
+    align-items: center;
+    margin-bottom: 12rem;
+    margin-top: 2rem;
+
+}
+/* posiciona el formulario */
+.positionForm{
+     
+    left: 22rem;
+    top: 10%;
+     margin: auto;
+    
+    
+}
+
+ 
+    
+ 
+
+/* boton enviar */
+.botonEnviar{
+    background-color: #11989c;
+    color: white;
+    width: 100%;
+    height: 16%;
+    padding: 30px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/* hover del boton enviar */
+.botonEnviar:hover{
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+    .btnSuscribir {
+        width: 100%;
+        background-color: #9fced0;
+        color: #11989c;
+        width: 50%;
+        font-size: medium;
+        padding: 5px;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-right: 30px;
+        
+    }
+
+
+/* 1er breakpoint */
+ /* @media screen and (min-width: 768px) and (max-width: 991px){ */
+	/* los cambios */
+    @media (width < 991px){
+    .msje{
+            text-align: center;
+        }
+/* **********RESPONIVE INDEX.HTML */
+
+    .logo{
+    width: 90px;
+    height: 90px;
+
+    }
+
+    .main{
+        margin-bottom: 10%;
+        
+        margin-left: 10%;
+        margin-right: 10%;
+         
+        padding-top: 20%;
+        padding-bottom: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+
+    }
+
+    .textoMain{
+        font-size: 35px;
+        text-align: justify;
+    }
+
+    .mainImg{
+        border-radius: 20px;
+        height: auto;
+        justify-content: center;
+     }
+    
+
+    header nav{
+        font-size: 13px;
+        font-weight: normal;
+        position: 50%;
+    }
+
+    .main-grid{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+      
+        align-items: center;
+    
+    }
+
+    main div p {
+        font-size: smaller; 
+    }   
+
+    main img{
+        
+        width: 50%;
+        height: 50%; 
+        left: 30px;  
+    
+         padding-left: 30px;
+    
+    
+    }
+    
+
+
+    .fontSizeheader{
+        font-size: 20px;
+        padding-top: 20px;
+
+    }
+
+    .textoContacto{
+        font-size: 100%;
+        }
+
+
+
+
+/* *************************** */
+        /* CAMBIOS EN FOOTER */
+
+         
+
+        .bgfooter{
+            size: auto;
+
+        }
+
+        
+        .logoFooter{
+            height: 150px;
+            width: 150px;
+        }
+
+        .textobanner{
+            font-size: 150%;
+            
+
+        }
+
+
+        /* grid responsive */
+        .containerFooter{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-areas:
+              ". c"
+              "a b"
+              ". .";
+            padding-right: 20px;
+            padding-top: 15px;
+          }
+            .grid-item {
+            
+                padding: 15px;
+             }
+
+            .logoFooter {
+             grid-area: a;
+             align-content: center;
+                
+            }
+            .suscribe {
+                grid-area: b;
+            }
+            .textfooter {
+                grid-area: c;
+                padding-bottom: 15px;
+                
+            }
+
+            
+        
+        
+        .suscribe{
+            /* display: flex;
+            flex-direction: column; */
+            background-color: #11989c;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 2px ;
+            gap: 5px;
+            
+        }
+
+        /* **********RESPONSIVE CONTACTO.HTML*/
+    .fondoMainContacto{
+        width: auto;
+    }
+
+    .mainContacto{
+        margin: 30px;
+        padding: 30px;
+    }
+
+    .positionForm{
+         justify-content: center;
+    }
+
+    .textoContacto{
+        color: white;
+        padding-right: 110px ;
+        padding-left: 120px;
+        padding-bottom: 50px; 
+        font-size: 17px;
+        margin-top: 70px;
+        gap: 20px;
+        text-align: justify;
+    }
+
+    .contactanos{
+        padding-top: 30px;
+        font-size: 30px;
+        color: antiquewhite;
+    }
+
+  
+    form {
+        max-width: 600px;
+        background-color:white;
+        margin: 0  ;
+        padding: 20px;
+        border-radius: 3px;
+        color: #999;
+         
+        margin-bottom: 16rem;
+        margin-top: 2rem;
+        margin-right: 50px; 
+    
+    }
+
+
+	}
+/* ***************END RESPONSIVE 1er BRKPNT*/
+
+/* *****************INICIA 2DO BRKPNT */
+    /* 2do breakpoint */
+ 
+
+
+
+
+
+
+
+
+
+	
+ 
+
+
+@media screen and ( max-width:   488px)  {
+
+
+    .mainImg{
+        border-radius: 250px;
+        width: 70%;
+         
+    }
+
+    .textobanner{
+        font-size: smaller;
+    }
+
+    .logo{
+        width: 90px;
+        height: 90px;
+    
+        }
+    
+
+    
+        .textoMain{
+            font-size: 35px;
+            text-align: justify;
+        }
+     header nav  {
+        flex-wrap: wrap;
+        
+     } 
+
+    .gap-5{
+        gap: 10px;
+    }
+
+    /* .textobanner{
+        visibility: none;
+    } */
+
+    .containerFooter{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+          "a"
+          "b"
+          "c ";
+         padding-bottom: 10%;
+      }
+
+    .suscribe{
+        justify-content: center;
+
+    }  
+
+    .logoFooter{
+        justify-content: center;
+    }
+
+    .reduceSize{
+        max-width: 80%;
+        margin: auto;
+
+    }
+
+    .reduceSizeInput{
+        max-width: 100%;
+
+    }
+
+    .textfooter{
+        display: flex;
+    }
+
+    .reduceFontSizes{
+        font-size: 60%;
+        margin: auto;
+    }
+
+} 
+
+ 
+
