@@ -580,11 +580,20 @@ form {
     .gap-5{
         gap: 10px;
     }
+
+    .formResponsive{
+        margin: 25px;
+    }
  
-
-    
-
 } 
+
+@media only screen and (min-width: 320px) and (max-width: 576px){
+
+    .formResponsive{
+        margin-right: 20%;
+    }
+
+}
 
  
 
