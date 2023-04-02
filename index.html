@@ -24,20 +24,25 @@
         </div>
     
      <header >      
+      
       <!-- inicia NAV -->
       <nav class="navbar navbar-expand-sm navbar-light bg-success ">
-        <div class="container-fluid">
+        <div class="container-fluid m-2">
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- boton hamburguesa   -->
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <a class="navbar-brand" href="#">
+          <!-- logo -->
+          <a class="navbar-brand " href="#">
             <img src="img/logo-yerba.png" alt="Logo" height=" " class="logo">
           </a>
-      
+
+
+          <!-- inicio botonera -->
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto gap-5">
+            <ul class="navbar-nav ms-auto gap-5 ">
               <li class="nav-item">
                 <a class="nav-link   " aria-current="page" href="pages/quienes_somos.html">Quienes somos</a>
               </li>
@@ -58,7 +63,7 @@
               <!-- finaliza nav -->
   
 
-   
+      <!-- IMAGEN CON FRASE -->
         <section class="section">
              
         
@@ -74,24 +79,30 @@
               </div>
             </div>
         </section>
+        <!-- IMAGEN CON FRASE -->
 
     </header>
 
 
     <main  class="main main-grid gap-1 bg-light">
-            
+    
+
+      <!-- primera imagen main -->
           <div class="">
                 <img src="img/paqueteyerba.png" alt="" class="mainImg container"> 
             </div>
             
+            <!-- 1er texto main -->
             <div class="textoMain">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae alias ad minus quisquam ipsum consectetur eius nostrum illo sapiente dolore quae, repellat similique totam praesentium modi ducimus voluptatum deleniti fugiat!</p>
              </div>   
              
+             <!-- seguna imagen main -->
              <div class="">
               <img src="img/matecebado.jpg" alt="" class="mainImg container">
              </div>
 
+             <!-- 2do texto main -->
           <div class="textoMain">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium atque dignissimos quia ut dolorum facere consequuntur quibusdam, necessitatibus laboriosam et distinctio est, impedit voluptate nobis omnis esse. Voluptatum, est dolore.</p>
           </div> 
@@ -104,15 +115,15 @@
 
        
 
-    
+    <!-- imagen banner -->
     <section>
-        <!-- <div class="textobanner bgfooter">YERBA ORGANICA</div> -->
+      
         <div class="card bg-dark text-white ">
           <img src="img/matefooter.jpg" class="card-img imgheader" alt="...">
           <div class="card-img-overlay  ">
             <div class="fontSizeHeader py-5">
               
-              <!-- <p class="card-text textobanner">YERBA ORGANICA</p> -->
+       
           </div>
           </div>
         </div>
@@ -120,48 +131,88 @@
     
     
 
+<!-- inicio de footer BS -->
+<div class=" ">
+
+  <footer class="text-center text-lg-start   pt-4 bg-success">
+   
+  <div class="container p-4 ">
     
-       
-        <!-- abre footer -->
-      <footer class="bg-green containerfooter  ">
-              
-            <div class="grid-item-a ">
-              <img class="logoFooter" src="img/logo-yerba.png" alt="" >
-            </div>
-            
-  
-          
-              <div class="textfooter grid-item-c">    
-                  <a href="" class="">Politicas de privacidad</a>
-                  <a href="">Aviso legal</a>
-                  <a href="">Politicas de calidad</a>
-              </div>   
-            
-            
-  
+    <div class="row">
 
-          
-          <div class="suscribe  reduceSize grid-item-b">
-              <div class="reduceSize">
-                  <p class="colorWhite reduceFontSizes">RECIBI NOVEDADES</p>
-              </div   >
+      <!-- logo -->
+       <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 ">
 
-              <div class="reduceSize reduceFontSizes">
-                  <input type="email" value="" placeholder="Suscribite" style="font-size: large;" class="reduceSizeInput">
-              </div>
-
-              <button type="submit" class="reduceFontSizes btn btn-primary btnSuscribir text-center">SUSCRIBIR</button> 
-                
-          </div>   
-
-     
-              
-      <!-- cierra footer -->
-      </footer>
+        <img src="img/logo-yerba.png" alt=""  class="logoFooter">
+        
+      </div>
+    
       
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <h5 class="mb-4">SOBRE NOSOTROS</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="pages/contactos.html" class="text-white">Contactanos</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Preguntas frecuentes</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Metodos de pago</a>
+          </li>
+        </ul>
+      </div>
+
+
+      <!-- columna de politicas -->
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <h5 class=" mb-4">DEFENSA DEL CONSUMIDOR</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" class="text-white">Aviso legal</a>
+          </li>
+          <li>
+            <a href="#" class="text-white">Politicas de calidad</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Politicas de privacidad</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <!-- suscripcion -->
+       <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 bg-green p-4">
+        <h5 class="mb-4 text">SUSCRIBITE PARA RECIBIR NOVEDADES</h5>
+
+        <div class="form-floating mb-3 form-outline form-black">
+          <input type="email" id="form5Example2" class="form-control" id="floatingInput" placeholder="nombre@yerbaexperience.com" />
+          <label class="form-label " for="form5Example2">Email </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block ">Subscriite</button>
+      </div>
+     </div>
+   </div>
+ 
+  <!-- Copyright -->
+  <div class="text-center p-3 border-bottom border-white">
+    © 2023 Copyright:
+    <a class="text-white" href="https://mbasse89.github.io/Proyecto-Final/">Yerba Mate Experience</a>
+  </div>
+ </footer>
+
+</div>
+ <!-- termina footer -->
+
+
+ 
 
     <section>
         <div class="bgicon ">
+          
             <a href="https://www.instagram.com/" target="_blank" class=" center"> 
                 <img src="iconos/ig_icon.png" alt="seguinos en Instagram" width="40" height="40">
             </a>

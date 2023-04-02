@@ -13,7 +13,8 @@
 
 
 .bg-green{
-    background-color: #458768;
+    /* background-color: #458768; */
+    background-color: #286a4c;
     
 }
 
@@ -52,15 +53,7 @@ div p{
 /* **************   header******************** */
 
 /*  ACOMODA LA BOTONERA */
-nav{
-    background-color: #458768;
-   /*  display: flex;
-    justify-content: space-around;
-    align-items: center ;
-    text-decoration: none;
-    padding: 10px;  */
-    
-}
+
 
 
  
@@ -68,31 +61,12 @@ nav ul li {
     
     /* display: inline-block;  */
     font-weight: bold; 
+    font-size: 16px;
  
 } 
 
  
-/* propiedades de la botonera */
-nav ul li  :hover{
-    
-    
-
-    color: white;
-    border-radius: 50px;
-    list-style: none;
-    text-decoration: none;
-    overflow: hidden;
-    padding: 8px;
-    
-} */
-
-
-
-header .logo{
-    float: left;
-
-}
-
+ 
 
 
 /* Propiedades del logo */
@@ -100,8 +74,7 @@ header .logo{
     
     width: 130px;
     height: 130px;
-    /* display: flex;
-    justify-content: center;  */
+
     
 }
 
@@ -232,20 +205,9 @@ main img{
     height: 190px;
 } 
 
-.containerFooter{
-
-  
-    display:  flex;
-    justify-content: space-around ;
-    
-    align-items: center;
-    
-    height: 25rem;
-    gap: 5px;
-    overflow: hidden;
 
     
-} 
+
 
 /* ******propiedades del banner **************/
 .imgfooter{
@@ -267,49 +229,10 @@ main img{
 /*    ******termina prop del banner */
 
 /* contenedro SUSCRIPCION */
-.suscribe{
-    display: flex;
-    flex-direction: column;
-    background-color: #11989c;
-    padding: 30px;
-    border-radius: 2px;
-    gap: 30px;
-    
-    
-}
-
-
-/* BOTON SUSCRIPCION */
-.btnSuscribir {
-    width: 100%;
-    background-color: #9fced0;
-    color: #11989c;
-    width: 100%;
-    font-size: larger;
-    padding: 5px;
-    font-weight: bold;
-    padding-left: 30px;
-    padding-right: 30px;
-    
-}
-
-
-
-
-
 
 
 /* LINKS FOOTER */
-.textfooter {
-    color: white;
-    font-family: 'Montserrat';
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    gap: 10px;
-    
-    
-}
+
 
 
 
@@ -448,25 +371,14 @@ form {
     cursor: pointer;
     
 }
+/* FINALIZA FORMULARIO   */
 
 
 
 
 
 
-
-    .btnSuscribir {
-        width: 100%;
-        background-color: #9fced0;
-        color: #11989c;
-        width: 50%;
-        font-size: medium;
-        padding: 5px;
-        font-weight: bold;
-        padding-left: 20px;
-        padding-right: 30px;
-        
-    }
+ 
 
 
 /* 1er breakpoint */
@@ -567,90 +479,7 @@ form {
 
          
 
-        .bgfooter{
-            size: auto;
-
-        }
-
         
-        
-
-        .textobanner{
-            font-size: 150%;
-            
-
-        }
-
-
-        /* grid responsive */
-        .containerFooter{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(3, 1fr);
-            grid-template-areas:
-              "a c"
-              "a b";
-                            ;
-            padding-right: 20px;
-            padding-top: 15px;
-          }
-            .grid-item-a {
-                grid-area: a;
-                padding-left: 15%;
-             }
-
-            .logoFooter {
-             
-              width: 250px;
-              height: 250px;
-                
-            }
-
-            .grid-item-b {
-                grid-area: b;
-                padding-bottom: 5%;
-
-            }
-            .grid-item-c {
-                grid-area: c;
-                padding-bottom: 15px;
-                
-            }
-
-          
-
-            
-            .reduceSize{
-                max-width: 80%;
-                margin: auto;
-        
-            }
-        
-            .reduceSizeInput{
-                max-width: 100%;
-        
-            }
-        
-            .textfooter{
-                display: flex;
-            }
-        
-            .reduceFontSizes{
-                font-size: 100%;
-                margin: auto;
-            }
-        
-        .suscribe{
-            /* display: flex;
-            flex-direction: column; */
-            background-color: #11989c;
-            padding: 15px;
-            margin: 10px;
-            border-radius: 2px ;
-            gap: 5px;
-             
-            
-        }
 
         /* **********RESPONSIVE CONTACTO.HTML*/
     .fondoMainContacto{
@@ -751,72 +580,7 @@ form {
     .gap-5{
         gap: 10px;
     }
-
-    /* .textobanner{
-        visibility: none;
-    } */
-
-    .containerFooter{
-        display: grid;
-        grid-template-columns: repeat(1fr,);
-        grid-template-rows: repeat(3, 1fr, 1fr, 1fr);
-        grid-template-areas:
-          "a "
-          "c "
-          " b ";
-
-       
-         
-        height: auto;
-      }
-        .grid-item-a {
-            grid-area: a;
-            padding-left: 40%;
-             
-         }
-
-        .logoFooter {
-         
-          width: 250px;
-          height: 250px;
-        left: 30%; 
-        }
-
-        .grid-item-b {
-            grid-area: b;
-            padding-bottom: 5%;
-
-        }
-        .grid-item-c {
-            grid-area: c;
-            padding-bottom: 15px;
-            padding-left: 40%;
-            
-        }
-
-        .grid-item-d{
-            grid-area: d;
-        }
-
-    .reduceSize{
-        max-width: 80%;
-        margin: auto;
-
-    }
-
-    .reduceSizeInput{
-        max-width: 100%;
-
-    }
-
-    .textfooter{
-        display: flex;
-    }
-
-    .reduceFontSizes{
-        font-size: 60%;
-        margin: auto;
-    }
+ 
 
     
 
