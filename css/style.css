@@ -121,7 +121,9 @@ nav ul li {
     text-align: justify;
 }
 
-
+.text-grey{
+    color: #999;
+}
 
 
 /* ***************************MAIN**************************** */
@@ -180,8 +182,8 @@ main img{
 
 
 .imgProducto {
-    width: 30rem;
-    height: 30rem;
+    width: auto;
+    height: auto;
 }
 
 
