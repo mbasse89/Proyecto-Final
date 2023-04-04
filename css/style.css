@@ -13,8 +13,8 @@
 
 
 .bg-green{
-    /* background-color: #458768; */
-    background-color: #286a4c;
+     /* background-color: #286a4c; */
+    background-image: linear-gradient(to left, rgb(122, 158, 105) , rgba(0, 255, 21, 0.142));
     
 }
 
@@ -65,9 +65,9 @@ nav ul li {
  
 } 
 
- 
- 
-
+div ul li :hover{
+    text-decoration: underline;
+}
 
 /* Propiedades del logo */
 .logo{
@@ -274,8 +274,7 @@ iframe {
     border-bottom-right-radius: 100px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin-left: 50px;
-
+ 
 }
 
 
