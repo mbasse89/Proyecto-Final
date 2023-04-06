@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600&family=Special+Elite&display=swap");
+.msje {
+  position: sticky;
+  text-align: right;
+  background-color: green;
+  color: aliceblue;
+  height: 25px;
+}
+
+div p {
+  margin: 5px;
+  font-size: larger;
+}
+
+div nav ul li {
+  font-weight: bold;
+  font-size: 16px;
+}
+div nav ul li:hover {
+  color: black;
+  text-decoration: underline;
+}
+div nav ul li:hover a :link, div nav ul li:hover a:visited, div nav ul li:hover a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-just {
+  text-align: justify;
+}
+
+.text-grey {
+  color: #999;
+}
+
+.logo {
+  width: width 130px;
+  height: width 130px;
+}
+
+.imgheader {
+  filter: contrast(70%);
+  filter: brightness(70%);
+  width: width 100px;
+}
+
+.section {
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+  width: width 100px;
+}
+
+.fontTextheader {
+  color: rgba(255, 255, 255, 0.834);
+  font-family: "Special elite", Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */

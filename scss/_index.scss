@@ -1,0 +1,27 @@
+// logo
+.logo{
+    width: $w-130;
+    height: $w-130;
+}
+
+.imgheader{
+    filter: contrast(70%);
+    filter: brightness(70%);
+    width: $wth-100;
+}
+
+// propiedades de texto sobre imagen
+.section{
+   
+    text-align: center;
+    align-items: center;
+
+    font-size: 50px;
+    width: $wth-100;
+     
+}
+
+.fontTextheader{
+    color: rgba(255, 255, 255, 0.834);
+    font-family: 'Special elite', Helvetica, sans-serif;
+}

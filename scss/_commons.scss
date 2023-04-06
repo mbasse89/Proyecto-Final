@@ -1,0 +1,73 @@
+// mensaje superior
+.msje{
+    
+    position:sticky;
+    text-align: right;
+    background-color: $bgSticky;
+    color: aliceblue;
+    height: 25px;
+    
+}
+div{
+    p{
+        margin: 5px;
+        font-size: larger;
+    }
+}
+
+
+
+// nav ul li {
+    
+//     /* display: inline-block;  */
+//     font-weight: bold; 
+//     font-size: 16px;
+ 
+// } 
+
+// div ul li :hover{
+//     text-decoration: underline;
+// }
+
+
+//  navegador
+div{
+    nav{
+        ul{
+            li{
+                font-weight: bold;
+                font-size: 16px;
+                &:hover{
+                    color: black;
+                    text-decoration: underline; a :link, a:visited, a:active{
+                        text-decoration:none;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// textos 
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-just{
+    text-align: justify;
+}
+
+.text-grey{
+    color: #999;
+}

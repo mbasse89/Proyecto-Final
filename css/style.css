@@ -32,19 +32,17 @@
 }
 
 
-/* input buscar */
- .buscar{
-    display: flex;
-    justify-content: flex-end;
-    
-   
-}
+
 
  
 
 a:link, a:visited, a:active {
     text-decoration:none;
     color: white;
+}
+
+div ul li a{
+    
 }
 
 div p{
@@ -59,12 +57,12 @@ div p{
 
 
  
-nav ul li {
+ nav ul li {
     
     /* display: inline-block;  */
-    font-weight: bold; 
+    /* font-weight: bold; 
     font-size: 16px;
- 
+  */
 } 
 
 div ul li :hover{
@@ -103,7 +101,7 @@ div ul li :hover{
     color: rgba(255, 255, 255, 0.834);
     font-family: 'Special elite', Helvetica, sans-serif;
 }
-
+---------------------hasta aca sass
 /* ******************FIN HEADER***************** */
 
 
@@ -256,6 +254,12 @@ main img{
 
 /* *******************************************************FIN INDEX */
 
+
+/* *******************************COMO COMPRAR */
+
+.navIcon{
+    background-color: rgb(169, 165, 165);
+}
 
 
 /* **************************************************QUIENES SOMOS */
