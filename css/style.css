@@ -1,6 +1,5 @@
 /* ************************************************************INDEX */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600&family=Special+Elite&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;300;500;600&family=Special+Elite&display=swap');
 
 
 *{
@@ -41,8 +40,8 @@ a:link, a:visited, a:active {
     color: white;
 }
 
-div ul li a{
-    
+div ul li {
+    height: ;
 }
 
 div p{
@@ -54,19 +53,11 @@ div p{
 
 /*  ACOMODA LA BOTONERA */
 
-
-
  
- nav ul li {
-    
-    /* display: inline-block;  */
-    /* font-weight: bold; 
-    font-size: 16px;
-  */
-} 
 
 div ul li :hover{
     text-decoration: underline;
+
 }
 
 /* Propiedades del logo */
@@ -125,6 +116,11 @@ div ul li :hover{
     color: #999;
 }
 
+.text-green{
+    color: rgb(17, 115, 17);
+}
+
+ 
 
 /* ***************************MAIN**************************** */
 
@@ -218,6 +214,32 @@ main img{
     
     
 }
+
+/* animacion de texto */
+.transitionText{
+     
+    -webkit-transition: font-size 1s ease;
+    transition: font-size 1s ease;
+  }
+  .transitionText:hover{
+    font-size: 70px;
+  }
+ 
+  a:hover, a:focus {
+    background-size: 100% 2px;
+}
+ 
+/* fuente de banner sobre footer */
+.fontFooter{
+        font-family: 'lobster';
+        font-size: 50px;
+        text-align: center;
+       
+}
+
+
+ 
+ 
 
 .textobanner{
     display: flex;
@@ -320,6 +342,7 @@ iframe {
     
     grid-template-rows: 1fr;
     overflow: hidden;
+    
 
 }
 
@@ -367,20 +390,28 @@ form {
 
 /* boton enviar */
 .botonEnviar{
-    background-color: #11989c;
-    color: white;
-    width: 100%;
-    height: 16%;
-    padding: 30px;
-    font-size: 20px;
-    margin-top: 15px;
+     background-color: rgb(6, 109, 6);
+     color: white;
+     width: 100%;
+     /* transition:  background-color 0.5s ease-out, opacity 0.5s ease-out; */
+     transition: color 1.1s ease-out ; 
+      padding: 6px;
+     border: none;
+     border-radius: 2px;
 }
 
 /* hover del boton enviar */
-.botonEnviar:hover{
+ 
+
+
+  .botonEnviar:hover {
+    background-color: #eff0f4;
     cursor: pointer;
-    
-}
+    color: rgb(6, 109, 6);
+    border: 1px;
+    border-color: rgb(6, 109, 6);
+    border-style: double;
+  }
 /* FINALIZA FORMULARIO   */
 
 
@@ -476,6 +507,8 @@ form {
         padding-top: 20px;
 
     }
+
+
 
     .textoContacto{
         font-size: 100%;
