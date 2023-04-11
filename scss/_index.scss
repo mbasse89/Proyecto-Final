@@ -7,7 +7,7 @@
 .imgheader{
     filter: contrast(70%);
     filter: brightness(70%);
-    width: $wth-100;
+    width: $w-100;
 }
 
 // propiedades de texto sobre imagen
@@ -16,12 +16,66 @@
     text-align: center;
     align-items: center;
 
-    font-size: 50px;
-    width: $wth-100;
+    font-size: $f-50;
+    width: $w-100;
      
 }
 
 .fontTextheader{
     color: rgba(255, 255, 255, 0.834);
     font-family: 'Special elite', Helvetica, sans-serif;
+}
+
+
+.main{
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: none;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    top: 18%;
+    border-radius: 15px;
+
+        main img{
+            width: $w-100;
+            height: $h-80-porcent;   
+            padding-left: 20px;
+            
+            
+        }
+    }
+
+
+    //propiedades y animacion de banner 
+.transitionText {
+    transition: font-size 1s ease;
+    -webkit-transition: font-size 1s ease;
+      
+    &:hover {
+        font-size: 70px;
+        cursor: pointer;
+    }
+}
+
+// 
+.fontFooter{
+    font-family: $thirdFont ;
+    font-size: $f-50;
+    text-align: $t-center;
+   
+}
+
+// propiedades de footer
+.imgFooter{
+    width: $w-100;
+    height: $h-140;
+}
+
+.bgIcon{
+    background-color: $bgColorBlack;
+    text-align: $t-center;
+    justify-content: space-around;
 }

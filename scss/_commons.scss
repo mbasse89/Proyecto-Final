@@ -53,21 +53,36 @@ div{
 
 // textos 
 .text-center{
-    text-align: center;
+    text-align: $t-center;
 }
 
 .text-right{
-    text-align: right;
+    text-align: $t-right;
 }
 
 .text-left{
-    text-align: left;
+    text-align: $t-left;
 }
 
 .text-just{
-    text-align: justify;
+    text-align: $t-justify;
 }
 
 .text-grey{
-    color: #999;
+    color: $colorGrey;
+}
+
+.text-black{
+    color: $colorBlack;
+ }
+
+.logo{
+    
+    width: $w-130;
+    height: $h-130;
+}
+
+.logoFooter{
+    width: $w-190;
+    height: $h-190 ;
 }

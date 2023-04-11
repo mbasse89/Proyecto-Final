@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600&family=Special+Elite&display=swap');
 @import "_vars";
-@import "_imagenes";
-@import"_commons.scss";
 @import"_index";
+@import"_commons";
+@import "_imagenes";
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"

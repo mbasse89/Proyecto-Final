@@ -34,7 +34,6 @@
 
 
 
-
  
 
 a:link, a:visited, a:active {
@@ -67,7 +66,7 @@ div ul li :hover{
     
     width: 130px;
     height: 130px;
-
+/* ya sass */
     
 }
 
@@ -200,11 +199,12 @@ main img{
 
 /* ***************************FOOTER**************************** */
 
-
+/* yok sass */
 .logoFooter{
 
     width: 190px;
     height: 190px;
+
 } 
 
 
@@ -216,37 +216,37 @@ main img{
     width: 100%;
     height: 140px    ;
     
-    
+    /* sass ok */
 }
 
 /* animacion de texto */
-.transitionText{
-     
-    -webkit-transition: font-size 1s ease;
-    transition: font-size 1s ease;
-  }
-  .transitionText:hover{
-    font-size: 70px;
-    cursor: pointer;
-  }
+    .transitionText{
+        /* sass OK */
+        -webkit-transition: font-size 1s ease;
+        transition: font-size 1s ease;
+    }
+    .transitionText:hover{
+        font-size: 70px;
+        cursor: pointer;
+    }
  
-  a:hover, a:focus {
+  /* a:hover, a:focus {
     background-size: 100% 2px;
-}
+} */
  
 /* fuente de banner sobre footer */
 .fontFooter{
         font-family: 'lobster';
         font-size: 50px;
         text-align: center;
-       
+       /*sass ok  */
 }
 
 
  
  
-
-.textobanner{
+/* 
+.textoBanner{
     display: flex;
     justify-content: end;
 
@@ -254,7 +254,7 @@ main img{
     color: rgba(255, 255, 255, 0.834);
     font-family: 'Special elite', Helvetica, sans-serif;
     overflow:auto;
-}
+} */
 /*    ******termina prop del banner */
 
 /* contenedro SUSCRIPCION */
@@ -270,11 +270,11 @@ main img{
 }
 
 /* ICONS IG Y FB */
-.bgicon{
+.bgIcon{
     background-color: rgb(4, 4, 4);
     text-align: center;
     justify-content: space-around;
-   
+   /* SASS OK */
 }
 
 /* *************************** ENDS FOOTER**************************** */
