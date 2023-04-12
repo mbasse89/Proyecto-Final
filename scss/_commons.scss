@@ -1,34 +1,18 @@
+*{
+    font-family: $mainFont;
+}
 // mensaje superior
 .msje{
     
     position:sticky;
-    text-align: right;
+    text-align: $t-right;
     background-color: $bgSticky;
-    color: aliceblue;
-    height: 25px;
+    color: $colorWhite;
+    height: 30px;
     
 }
-div{
-    p{
-        margin: 5px;
-        font-size: larger;
-    }
-}
 
-
-
-// nav ul li {
-    
-//     /* display: inline-block;  */
-//     font-weight: bold; 
-//     font-size: 16px;
  
-// } 
-
-// div ul li :hover{
-//     text-decoration: underline;
-// }
-
 
 //  navegador
 div{
@@ -37,19 +21,36 @@ div{
             li{
                 font-weight: bold;
                 font-size: 16px;
+                text-decoration: none;
+                // color: black;
+      
                 &:hover{
-                    color: black;
-                    text-decoration: underline; a :link, a:visited, a:active{
-                        text-decoration:none;
-                        color: white;
-                    }
+                    
+                    // text-decoration: underline; a :link, a:visited, a:active{
+                    text-decoration:underline;
+                   
+                    color: $colorWhite;
+
+                        }
                 }
             }
         }
     }
+
+  
+ 
+a:link, a:visited, a:active {
+    // text-decoration:underline;
+    color: $colorWhite;
 }
 
-
+div{
+    ul{
+        
+            text-decoration: none;
+        
+    }
+}
 
 // textos 
 .text-center{
@@ -85,4 +86,29 @@ div{
 .logoFooter{
     width: $w-190;
     height: $h-190 ;
+}
+
+.bg-green{
+    /* background-color: #286a4c; */
+   background-image: linear-gradient(to left, rgb(122, 158, 105) , rgba(0, 255, 21, 0.142));
+   
+}
+
+.titulosFooter{
+    font-size: $f-20;
+}
+
+.bg-grey{
+    background-color: $colorGrey;
+}
+
+.bgIcon{
+    background-color: $bgColorBlack;
+    text-align: $t-center;
+    justify-content: space-around;
+}
+
+.bg-green{
+    background-image: linear-gradient(to left, rgb(122, 158, 105) , rgba(0, 255, 21, 0.142));
+
 }

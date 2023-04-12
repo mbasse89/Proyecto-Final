@@ -1,9 +1,6 @@
 // logo
-.logo{
-    width: $w-130;
-    height: $w-130;
-}
-
+ 
+// filtro de imagen en header
 .imgheader{
     filter: contrast(70%);
     filter: brightness(70%);
@@ -13,20 +10,37 @@
 // propiedades de texto sobre imagen
 .section{
    
-    text-align: center;
+    text-align: $t-center;
     align-items: center;
 
     font-size: $f-50;
-    width: $w-100;
+   
      
 }
 
+// propiedades de la fuente de la imagen del header
 .fontTextheader{
-    color: rgba(255, 255, 255, 0.834);
-    font-family: 'Special elite', Helvetica, sans-serif;
+    color: $colorWhite;
+    font-family: $secondaryFont;
 }
 
 
+// grid del main
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    align-items: center;
+    
+}
+
+// bordes de la imagen del main
+.mainImg{
+    border-radius: 200px;
+}
+
+// main index propiedades
 .main{
     margin-bottom: 10%;
     margin-left: 10%;
@@ -41,26 +55,34 @@
 
         main img{
             width: $w-100;
-            height: $h-80-porcent;   
+            height: $h-80-percent;   
             padding-left: 20px;
             
             
         }
     }
 
+    div{
+        p{
+            margin: 5px;
+            font-size: larger;
+            
+        }
+    }
 
     //propiedades y animacion de banner 
 .transitionText {
     transition: font-size 1s ease;
     -webkit-transition: font-size 1s ease;
+ 
       
     &:hover {
-        font-size: 70px;
+        font-size: $f-70;
         cursor: pointer;
     }
 }
 
-// 
+// fuente de la imagen con fuente animada
 .fontFooter{
     font-family: $thirdFont ;
     font-size: $f-50;
@@ -74,8 +96,4 @@
     height: $h-140;
 }
 
-.bgIcon{
-    background-color: $bgColorBlack;
-    text-align: $t-center;
-    justify-content: space-around;
-}
+ 

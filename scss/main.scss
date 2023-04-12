@@ -1,10 +1,14 @@
 // imports
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;300;500;600&family=Special+Elite&display=swap');
 @import "_vars";
-@import"_index";
+
 @import"_commons";
-@import "_imagenes";
+@import"_index";
+@import "_productos";
+@import "_como_comprar";
+@import"_quienes_somos";
+@import"_contacto";
 
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-@import "../node_modules/bootstrap/scss/bootstrap.scss"
