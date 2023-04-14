@@ -5,30 +5,37 @@ $thirdFont: 'Lobster', sans-serif;
 
 
 //tamaño fonts
+$f-10: 10px;
+$f-15: 15px;
 $f-20: 20px;
 $f-30: 30px;
+$f-35:35px;
 $f-50:   50px;
 $f-70:   70px;
+$f-100-percent: 100%;
 
 
 // colores
 
 $bgColorGreen: #286a4c;
 $bgSticky: green;
-$colorGrey: rgb(197, 191, 191);
+$colorGrey: rgb(145, 138, 138);
 $bgColorBlack:  rgb(4, 4, 4);
 $colorBlack:  rgb(34, 28, 28);
 $colorGreen: rgb(17, 115, 17);
 $colorWhite: rgb(255, 254, 254);
+$colorLightGreen: rgb(122, 158, 105);
 
 
 
 // tamaño
 $w-auto:  auto;
 $w-190:  190px;
+$w-130:  130px;
 $w-100:  100px;
 $w-100-percent: 100%;
-$w-130:  130px;
+$w-90: 90px;
+
 $w-40-percent:  40%;
 
 $h-auto:  auto;
@@ -36,7 +43,10 @@ $h-190:  190px;
 $h-140:  140px;
 $h-130:  130px;
 $h-100:  100px;
+$h-90: 90px;
+$h-80: 80px;
 $h-80-percent:  80%;
+$h-30: 30px;
 
 
 

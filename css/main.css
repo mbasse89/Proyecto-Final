@@ -8,7 +8,7 @@
   position: sticky;
   text-align: right;
   background-color: green;
-  color: rgb(255, 254, 254);
+  color: white;
   height: 30px;
 }
 
@@ -47,7 +47,7 @@ div ul {
 }
 
 .text-grey {
-  color: rgb(197, 191, 191);
+  color: rgb(145, 138, 138);
 }
 
 .text-black {
@@ -74,7 +74,7 @@ div ul {
 }
 
 .bg-grey {
-  background-color: rgb(197, 191, 191);
+  background-color: rgb(145, 138, 138);
 }
 
 .bgIcon {
@@ -85,6 +85,10 @@ div ul {
 
 .bg-green {
   background-image: linear-gradient(to left, rgb(122, 158, 105), rgba(0, 255, 21, 0.142));
+}
+
+.bg-LightGreen {
+  background-color: rgb(122, 158, 105);
 }
 
 .imgheader {
@@ -180,8 +184,8 @@ iframe {
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  width: 100%;
-  height: 80%;
+  width: 100px;
+  height: 90px;
 }
 
 .textomainqs {
@@ -194,6 +198,13 @@ iframe {
   filter: brightness(250%);
   font-size: 20px;
   padding: 30px;
+}
+
+.icono {
+  font-size: auto;
+}
+.icono:hover {
+  transform: scale 1.9;
 }
 
 .fondoMainContacto {
@@ -258,6 +269,184 @@ form.positionForm {
   border-style: double;
 }
 
+@media (width < 991px) {
+  .msje {
+    text-align: center;
+  }
+  /* **********RESPONIVE INDEX.HTML */
+  .logo {
+    width: 90px;
+    height: 90px;
+  }
+  .main {
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 20%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    gap: 0;
+  }
+  .textoMain {
+    font-size: 35px;
+    text-align: justify;
+  }
+  .mainImg {
+    border-radius: 20px;
+    height: auto;
+    justify-content: center;
+    padding: auto;
+  }
+  header nav {
+    font-size: 13px;
+    font-weight: normal;
+    position: 50%;
+  }
+  .main-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+  }
+  .textomain {
+    font-size: 150%;
+    margin: auto;
+    padding-top: auto;
+  }
+  main div p {
+    font-size: smaller;
+  }
+  main img {
+    width: 50%;
+    height: 50%;
+    left: 30px;
+    padding-left: 30px;
+  }
+  .fontSizeheader {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  .textoContacto {
+    font-size: 100%;
+  }
+  /* *************************** */
+  /* **************** iniia quienes somos*/
+  .mainImgQs {
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 100%;
+    height: 80%;
+  }
+  .textomainqs {
+    color: rgb(58, 23, 23);
+    filter: none;
+    justify-content: flex-end;
+    display: flex;
+    text-align: center;
+    text-align: justify;
+    filter: brightness(250%);
+    font-size: 15px;
+    padding: 30px;
+  }
+  .icono {
+    font-size: auto;
+  }
+  .icono:hover {
+    transform: scale 1.9;
+  }
+  /* ************ end quienes somos   */
+  /* **************inica como comprar*/
+  .imgComoComprar {
+    width: 100%;
+  }
+  /* **************termina como comprar
+
+          /* **********RESPONSIVE CONTACTO.HTML*/
+  .fondoMainContacto {
+    width: auto;
+  }
+  .mainContacto {
+    margin: 30px;
+    padding: 30px;
+  }
+  .positionForm {
+    justify-content: center;
+  }
+  .textoContacto {
+    color: white;
+    padding-right: 110px;
+    padding-left: 120px;
+    padding-bottom: 50px;
+    font-size: 17px;
+    margin-top: 70px;
+    gap: 20px;
+    text-align: justify;
+  }
+  .contactanos {
+    padding-top: 30px;
+    font-size: 10rem;
+    color: antiquewhite;
+  }
+  form {
+    max-width: 600px;
+    background-color: rgb(255, 254, 254);
+    margin: 0;
+    padding: 20px;
+    border-radius: 3px;
+    color: #999;
+    margin-bottom: 16rem;
+    margin-top: 2rem;
+    margin-right: 50px;
+  }
+}
+/* ***************END RESPONSIVE 1er BRKPNT*/
+/* *****************INICIA 2DO BRKPNT */
+/* 2do breakpoint */
+@media screen and (max-width: 768px) {
+  .mainImg {
+    border-radius: 1px;
+    width: 60%;
+  }
+  .textobanner {
+    font-size: smaller;
+  }
+  .logo {
+    width: 90px;
+    height: 90px;
+  }
+  .textoMain {
+    font-size: auto;
+    text-align: justify;
+  }
+  header nav {
+    flex-wrap: wrap;
+  }
+  .gap-5 {
+    gap: 10px;
+  }
+  .formResponsive {
+    margin: 25px;
+  }
+}
+.mainImgQs {
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 70%;
+  height: 60%;
+  left: 20rem;
+  align-items: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .formResponsive {
+    margin-right: 20%;
+  }
+}
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors

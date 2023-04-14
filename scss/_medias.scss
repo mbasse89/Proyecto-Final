@@ -1,0 +1,276 @@
+@media (width < 991px){
+    .msje{
+            text-align: $t-center;
+        }
+/* **********RESPONIVE INDEX.HTML */
+
+    .logo{
+    width: $w-90;
+    height: $h-90;
+
+    }
+
+    .main{
+        margin-bottom: 10%;
+        
+        margin-left: 10%;
+        margin-right: 10%;
+         
+        padding-top: 20%;
+        padding-bottom: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+        gap: 0;
+
+    }
+
+    .textoMain{
+        font-size: $f-35;
+        text-align: $t-justify;
+    }
+
+    .mainImg{
+        border-radius: $f-20;
+        height: $h-auto;
+        justify-content: center;
+        padding: auto;
+     }
+    
+
+    header nav{
+        font-size: 13px;
+        font-weight: normal;
+        position: 50%;
+    }
+
+    .main-grid{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+      
+        align-items: center;
+    
+    }
+
+    .textomain{
+        font-size: 150%;
+        margin: auto;
+        padding-top: auto;
+    }
+
+    main {
+        div {
+          p {
+            font-size: smaller;
+          }
+        }
+        img {
+          width: 50%;
+          height: 50%;
+          left: 30px;
+          padding-left: 30px;
+        }
+      }
+    
+
+
+    .fontSizeheader{
+        font-size: $f-20;
+        padding-top: $f-20;
+
+    }
+
+
+
+    .textoContacto{
+        font-size: $f-100-percent;
+        }
+
+
+
+
+/* *************************** */
+ 
+
+/* **************** iniia quienes somos*/
+.mainImgQs{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+     width: $w-100-percent;
+    height: $h-80-percent;
+}
+
+.textomainqs{
+    color: rgb(58, 23, 23);
+    filter: none;
+    justify-content: flex-end;
+
+    display: flex;
+    text-align: $t-center;
+    text-align: $t-justify;
+    filter: brightness(250%);
+    font-size: $f-15;
+    padding: 30px;
+}
+
+ 
+.icono{
+    font-size: auto;
+        &:hover{
+            transform: scale (1.9);
+        }
+    }
+
+
+        
+/* ************ end quienes somos   */
+
+
+/* **************inica como comprar*/
+
+
+ .imgComoComprar{
+        // height: $h-190; 
+        width: $w-100-percent;
+ }
+
+
+
+/* **************termina como comprar
+
+        /* **********RESPONSIVE CONTACTO.HTML*/
+    .fondoMainContacto{
+        width: $w-auto;
+    }
+
+    .mainContacto{
+        margin: $f-30;
+        padding: $f-30;
+    }
+
+    .positionForm{
+         justify-content: center;
+    }
+
+    .textoContacto{
+        color: white;
+        padding-right: 110px ;
+        padding-left: 120px;
+        padding-bottom: 50px; 
+        font-size: 17px;
+        margin-top: 70px;
+        gap: 20px;
+        text-align: justify;
+    }
+
+    .contactanos{
+        padding-top: 30px;
+        font-size: 10rem;
+        color: antiquewhite;
+        
+    }
+
+  
+    form {
+        max-width: 600px;
+        background-color:$colorWhite;
+        margin: 0  ;
+        padding: 20px;
+        border-radius: 3px;
+        color: #999;
+         
+        margin-bottom: 16rem;
+        margin-top: 2rem;
+        margin-right: 50px; 
+    
+    }
+
+
+	}
+/* ***************END RESPONSIVE 1er BRKPNT*/
+
+/* *****************INICIA 2DO BRKPNT */
+    /* 2do breakpoint */
+ 
+
+@media screen and ( max-width:   768px)  {
+
+
+    .mainImg{
+        border-radius: 1px;
+        width: 60%;
+         
+    }
+
+    .textobanner{
+        font-size: smaller;
+    }
+
+    .logo{
+        width: $w-90;
+        height: $h-90;
+    
+        }
+    
+    .textoMain{
+            font-size: auto;
+            text-align: justify;
+        }
+     header nav  {
+        flex-wrap: wrap;
+        
+     } 
+
+    .gap-5{
+        gap: 10px;
+    }
+
+    .formResponsive{
+        margin: 25px;
+    }
+ 
+} 
+
+// quienes somos
+
+
+.mainImgQs{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+     width: 70%;
+    height: 60%;
+        left: 20rem;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 576px){
+
+    .formResponsive{
+        margin-right: 20%;
+    }
+
+}
+
+ 
+

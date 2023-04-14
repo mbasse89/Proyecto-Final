@@ -15,8 +15,8 @@ iframe {
         border-bottom-right-radius: 20px;
         border-top-right-radius: 20px;
         border-bottom-left-radius: 20px;
-        width: $w-100-percent;
-        height: $h-80-percent;
+        width: $w-100;
+        height: $h-90;
     }
 
 .textomainqs{
@@ -33,3 +33,9 @@ iframe {
 }
 
  
+.icono{
+    font-size: auto;
+        &:hover{
+            transform: scale (1.9);
+        }
+    }
