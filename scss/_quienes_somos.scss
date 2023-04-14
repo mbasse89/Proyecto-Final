@@ -16,7 +16,7 @@ iframe {
         border-top-right-radius: 20px;
         border-bottom-left-radius: 20px;
         width: $w-100;
-        height: $h-90;
+        max-height: auto;
     }
 
 .textomainqs{
@@ -39,3 +39,14 @@ iframe {
             transform: scale (1.9);
         }
     }
+
+ 
+ 
+   
+ h4{
+    color: $colorWhite;
+    background-color: $colorCoral;
+    
+        
+ }
+ 

@@ -185,7 +185,7 @@ iframe {
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   width: 100px;
-  height: 90px;
+  max-height: auto;
 }
 
 .textomainqs {
@@ -205,6 +205,11 @@ iframe {
 }
 .icono:hover {
   transform: scale 1.9;
+}
+
+h4, .h4 {
+  color: rgb(255, 254, 254);
+  background-color: rgb(15, 127, 89);
 }
 
 .fondoMainContacto {
@@ -440,6 +445,18 @@ form.positionForm {
   height: 60%;
   left: 20rem;
   align-items: center;
+}
+
+.imgFamososResponsive {
+  height: auto;
+  width: auto;
+  font-size: medium;
+}
+
+.contactanos {
+  padding-top: 30px;
+  font-size: 2rem;
+  color: antiquewhite;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 576px) {
