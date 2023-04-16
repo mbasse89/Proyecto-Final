@@ -74,7 +74,7 @@ div ul {
 }
 
 .bg-grey {
-  background-color: rgb(145, 138, 138);
+  background-color: rgb(175, 174, 174);
 }
 
 .bgIcon {
@@ -116,7 +116,7 @@ div ul {
 }
 
 .mainImg {
-  border-radius: 200px;
+  border-radius: 15px;
 }
 
 .main {
@@ -168,8 +168,13 @@ div p {
   overflow: hidden;
 }
 
-.navIcon {
-  background-color: rgb(169, 165, 165);
+.navIcon:hover {
+  background-color: greenyellow;
+}
+
+iframe {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 iframe {
