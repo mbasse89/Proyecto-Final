@@ -38,7 +38,8 @@
 // bordes de la imagen del main
 .mainImg{
     border-radius: 15px;
-}
+    
+ }
 
 // main index propiedades
 .main{
@@ -96,5 +97,10 @@
     width: $w-100;
     height: $h-140;
 }
-
  
+.tituloCarrousel{
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 250;
+}
+
