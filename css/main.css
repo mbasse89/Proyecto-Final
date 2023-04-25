@@ -18,12 +18,12 @@ div nav ul li {
   text-decoration: none;
 }
 div nav ul li:hover {
-  text-decoration: underline;
   color: rgb(255, 254, 254);
 }
 
-a:link, a:visited, a:active {
+a:link, a:visited, a:active a:hover {
   color: rgb(255, 254, 254);
+  transition: left 0.8s;
 }
 
 div ul {
@@ -77,7 +77,6 @@ div ul {
 }
 
 .bg-green {
-  /* background-color: #286a4c; */
   background-image: linear-gradient(to left, rgb(122, 158, 105), rgba(0, 255, 21, 0.142));
 }
 
@@ -175,9 +174,22 @@ div p {
 }
 
 .tituloCarrousel {
-  font-size: 2rem;
+  font-size: 200%;
   font-style: italic;
   font-weight: 250;
+  text-decoration: none;
+}
+.tituloCarrousel::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: rgb(15, 127, 89);
+  transform: scale(0.1);
+  transform-origin: center;
+  transition: transform 0.25s;
+}
+.tituloCarrousel:hover::after {
+  transform: scale(0.4);
 }
 
 .cards {

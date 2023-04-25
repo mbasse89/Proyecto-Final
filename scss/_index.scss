@@ -99,8 +99,35 @@
 }
  
 .tituloCarrousel{
-    font-size: 2rem;
+     font-size: 200%;
     font-style: italic;
     font-weight: 250;
+    text-decoration: none;
+    
+    &::after{
+        content: "";
+        display: block;
+        height: 2px;
+        background-color: $colorCoral;
+        transform: scale(0.1);
+        transform-origin: center;
+        transition: transform .25s;
+    }
+    
+ 
+
+    &:hover::after{
+        transform: scale(0.4);
+    }    
+     
+
 }
+
+
+ 
+
+
+
+
+ 
 
