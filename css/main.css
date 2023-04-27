@@ -366,6 +366,9 @@ form.positionForm {
     font-size: 20px;
     padding-top: 20px;
   }
+  .tituloCarrousel {
+    font-size: 150%;
+  }
   .textoContacto {
     font-size: 100%;
   }

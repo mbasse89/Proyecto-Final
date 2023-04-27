@@ -3,7 +3,7 @@
 }
 // mensaje superior
 
-// se crea el mixin
+///              se crea el mixin
 @mixin mensajeSuperior ($t-right, $bgSticky, $colorWhite,$h-30 ){
     position:sticky;
     text-align: $t-right;
